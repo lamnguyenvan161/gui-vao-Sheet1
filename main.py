@@ -14,6 +14,6 @@ client = gspread.authorize(creds)
 
 sheet = client.open_by_key("1Y31SSWQ18svGk2cdTZzpVFR8kCk2yVPlGDFyVOFrAx4").worksheet("Sheet1")
 
-sheet.update_acell("A1", "RUN WEB OK")
+sheet.update_acell("A1", "RUN OK 123"))
 
 print("DONE")
